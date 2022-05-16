@@ -36,7 +36,7 @@ export default function Services() {
               </li>
             </ul>
             <div className="mx-auto mt-16">
-              <a href={"/#Contact"} passHref>
+              <a href="tel:+1-613-830-5383">
                 <button className="px-8 py-3 mx-auto -mt-8 text-lg font-bold text-white border-2 rounded-full shadow-lg hover:border-highlight1 hover:bg-white/70 bg-highlight1 border-highlight1 lg:px-6 shadow-black w-max md:text-xl lg:py-4 hover:text-highlight1">
                   CALL NOW
                 </button>
