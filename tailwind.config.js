@@ -10,7 +10,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        hero: "url('/bg-white.jpg')",
+        hero: "url('/bg-white2.jpg')",
         quote: "url('/fleet.jpg')",
       },
       colors: {

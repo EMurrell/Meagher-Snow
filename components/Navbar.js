@@ -8,9 +8,9 @@ import { Fade as Hamburger } from "hamburger-react";
 import { useState, useEffect } from "react";
 
 const links = [
-  { name: "About", to: "#About", id: 1 },
-  { name: "Services", to: "#Services", id: 2 },
-  { name: "Contact", to: "#Contact", id: 3 },
+  { name: "ABOUT", to: "#About", id: 1 },
+  { name: "SERVICES", to: "#Services", id: 2 },
+  { name: "CONTACT", to: "#Contact", id: 3 },
 ];
 
 const itemVariants = {
@@ -48,22 +48,24 @@ export default function Nav() {
           "py-0 backdrop-blur-sm  bg-white/80  trasition ease-in-out duration-500"
         } mx-auto   justify-between   `}
       >
-        <Link href="/">
-          <a className="inline-flex mx-4 mt-4 text-2xl font-semibold text-center cursor-pointer md:mt-8 font-logo md:text-2xl md:ml-8 lg:ml-16">
-            {/* <Image src="/plowpng-sm.png" alt="logo" height={120} width={120} /> */}
-            MEAGHER&apos;S
-          </a>
-        </Link>
+        <div className="w-20 h-20 p-2 md:h-28 md:w-28">
+          <Link href="/">
+            <a className="mx-4 text-2xl font-semibold text-center cursor-pointer md:mt-2 font-logo md:text-2xl md:ml-8 lg:ml-16">
+              <Image src="/MSB-logo2.png" alt="logo" height={100} width={100} />
+              {/* MEAGHER&apos;S */}
+            </a>
+          </Link>
+        </div>
 
         {/* The Side Bar Menu for screens smaller than 'Medium' */}
         <AnimatePresence>
           {open && (
             <motion.aside
-              className="fixed top-0 right-0 h-screen bg-white md:hidden overflow"
+              className="fixed top-0 right-0 h-screen bg-neutral-200 md:hidden overflow"
               initial={{ width: 0 }}
               transition={{ type: "tween" }}
               animate={{
-                width: "80%",
+                width: "95%",
               }}
               exit={{
                 width: 0,
@@ -76,19 +78,18 @@ export default function Nav() {
                 animate="open"
                 exit="closed"
               >
-                <Link href="https://www.trailbridgeweb.com" passHref>
+                <Link href="/" passHref>
                   <a>
                     <div
-                      className="py-10 border-b-2 border-neutral-100"
+                      className="py-10 border-b-2 border-black"
                       onClick={cycleOpen}
                     >
-                      <h2>MEAGHER&apos;S</h2>
-                      {/* <Image
-                        src="/plowpng-sm.png"
+                      <Image
+                        src="/MSB-logo2.png"
                         alt="logo"
                         height={100}
                         width={100}
-                      /> */}
+                      />
                     </div>
                   </a>
                 </Link>
@@ -97,7 +98,7 @@ export default function Nav() {
                   <motion.a
                     key={id}
                     href={to}
-                    className="flex mt-16 transition duration-100 ease-in-out transform hover:shadow-bottom w-max "
+                    className="flex mt-12 font-medium transition duration-100 ease-in-out transform hover:shadow-bottom w-max "
                     variants={itemVariants}
                     aria-current={links.current ? "page" : undefined}
                     onClick={cycleOpen}
@@ -119,7 +120,7 @@ export default function Nav() {
         </div>
 
         {/* The Navbar on medium screens */}
-        <div className="hidden pr-8 md:inline-flex ">
+        <div className="hidden pr-8 mt-2 md:inline-flex">
           {links.map(({ name, to, id }) => (
             <a
               key={id}

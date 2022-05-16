@@ -2,9 +2,9 @@ export default function About() {
   return (
     <section
       id="About"
-      className="flex flex-col justify-center w-full px-10 pt-12 font-sans font-bold tracking-tight md:pt-24 text-neutral-800 md:pb-8 "
+      className="flex flex-col justify-center w-full px-10 pt-6 font-sans font-medium tracking-tight md:pt-20 text-neutral-800 md:pb-8 "
     >
-      <h1 className="pt-10 pb-8 text-3xl font-extrabold text-center md:text-4xl ">
+      <h1 className="pt-16 pb-8 text-3xl font-bold text-center md:text-4xl ">
         30 YEARS EXPERIENCE
       </h1>
 
@@ -22,7 +22,7 @@ export default function About() {
         </p>
       </div>
 
-      <div className="flex flex-col justify-center px-6 py-4 mt-8 text-lg text-center text-white border-4 shadow-lg bg-highlight1 place-self-center md:text-xl lg:text-2xl border-highlight1 shadow-black">
+      <div className="flex flex-col justify-center px-8 py-8 mt-8 text-xl text-center text-black bg-white shadow-lg place-self-center md:text-2xl lg:text-3xl shadow-black">
         <h2>MAKES A GREAT GIFT FOR FRIENDS & FAMILY!</h2>
       </div>
     </section>

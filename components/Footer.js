@@ -30,7 +30,7 @@ export default function Contact() {
           </div> */}
         </div>
 
-        <div className="flex flex-col text-base lg:text-lg">
+        <div className="flex flex-col text-lg lg:text-xl">
           <div>
             <div className="flex flex-col mb-6 transition duration-300 ease-in-out transform cursor-pointer lg:mx-6 h-max w-max hover:shadow-bottom">
               <h2 className="flex flex-row text-xl font-bold lg:text-2xl w-max">
@@ -62,7 +62,7 @@ export default function Contact() {
         </div>
       </div>
       <div className="flex flex-col justify-center py-12 text-base text-center border-t border-neutral-200 lg:text-lg text-neutral-400">
-        &copy; {getCurrentYear()} Meagher&apos;s Snowblowing, <br />
+        &copy; {getCurrentYear()} Meagher&apos;s Snowblowing <br />
         Powered by Trailbridge Web
       </div>
     </footer>

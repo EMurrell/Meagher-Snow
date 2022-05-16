@@ -5,7 +5,7 @@ export default function Services() {
   return (
     <section
       id="Services"
-      className="py-32 -mt-10 overflow-hidden font-sans tracking-tight bg-center bg-cover md:-mt-16 md:py-28 bg-quote"
+      className="py-32 -mt-16 overflow-hidden font-sans tracking-tight bg-center bg-cover md:-mt-20 md:py-28 bg-quote"
     >
       <div className="px-8 ">
         <div className="flex flex-col justify-center ">
@@ -35,6 +35,13 @@ export default function Services() {
                 &#x2713;&emsp;We Come Back For City Plows
               </li>
             </ul>
+            <div className="mx-auto mt-16">
+              <a href={"/#Contact"} passHref>
+                <button className="px-8 py-3 mx-auto -mt-8 text-lg font-bold text-white border-2 rounded-full shadow-lg hover:border-highlight1 hover:bg-white/70 bg-highlight1 border-highlight1 lg:px-6 shadow-black w-max md:text-xl lg:py-4 hover:text-highlight1">
+                  CALL NOW
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
