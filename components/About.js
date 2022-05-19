@@ -17,12 +17,14 @@ export default function About() {
 
         <p className="py-3 ">Fully Licensed and Insured.</p>
 
+        <p className="py-3 ">Fully Licensed and Insured.</p>
+
         <p className="py-3 pb-8 md:pb-12 ">
           Serving Orleans and Surrounding Region.
         </p>
       </div>
 
-      <div className="flex flex-col justify-center px-8 py-8 mt-8 text-xl text-center text-black bg-white shadow-lg place-self-center md:text-2xl lg:text-3xl shadow-black">
+      <div className="flex flex-col justify-center px-8 py-8 mt-8 text-xl italic text-center text-black bg-white shadow-lg place-self-center md:text-2xl lg:text-3xl shadow-black">
         <h2>MAKES A GREAT GIFT FOR FRIENDS & FAMILY!</h2>
       </div>
     </section>

@@ -15,8 +15,8 @@ export default function Services() {
 
           <div className="flex self-center w-24 border-t-2 border-highlight1"></div>
 
-          <div className="flex flex-col justify-center mt-8">
-            <ul className="max-w-3xl mx-auto font-sans text-xl font-medium leading-relaxed text-white md:text-3xl ">
+          <div className="flex flex-col justify-center max-w-lg mx-auto mt-8">
+            <ul className="max-w-3xl mx-auto text-xl font-medium leading-relaxed text-white md:text-3xl ">
               <li className="pb-4 md:pb-8">&#x2713;&emsp;Snowblowing</li>
               <li className="pb-4 md:pb-8">
                 &#x2713;&emsp;Residential Driveways
@@ -29,10 +29,13 @@ export default function Services() {
                 &#x2713;&emsp;Yearly or As Needed
               </li>
               <li className="pb-4 md:pb-8">
-                &#x2713;&emsp;We Offer Sand and Salt
+                &#x2713;&emsp;Rooftop Snow Removal
               </li>
-              <li className="pb-4 md:pb-8">
+              <li className="pb-12 md:pb-16">
                 &#x2713;&emsp;We Come Back For City Plows
+              </li>
+              <li className="pb-4 text-2xl italic text-center md:pb-8 md:text-4xl">
+                ENQUIRE ABOUT OUR LAWN MAINTENANCE SERVICES
               </li>
             </ul>
             <div className="mx-auto mt-16">
