@@ -17,8 +17,6 @@ export default function About() {
 
         <p className="py-3 ">Fully Licensed and Insured.</p>
 
-        <p className="py-3 ">Fully Licensed and Insured.</p>
-
         <p className="py-3 pb-8 md:pb-12 ">
           Serving Orleans and Surrounding Region.
         </p>
