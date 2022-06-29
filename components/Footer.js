@@ -63,8 +63,15 @@ export default function Contact() {
       </div>
       <div className="flex flex-col justify-center py-12 text-base text-center border-t border-neutral-200 lg:text-lg text-neutral-400">
         &copy; {getCurrentYear()} Meagher&apos;s Snowblowing <br />
-        Powered by Trailbridge Web
+        Website powered by{" "}
+        <a
+          className="italic hover:text-white"
+          href="https://trailbridgeweb.com"
+        >
+          Trailbridge Web
+        </a>
       </div>
     </footer>
   );
 }
+
